@@ -5,7 +5,8 @@ from . import views
 # from home import views as home_views
 # from blog import views as blog_views
 
+app_name = 'home'
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name='home'),
 ]
